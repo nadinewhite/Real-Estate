@@ -9,7 +9,12 @@ import SwiftUI
 
 struct ListingItemsView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(spacing: 8) {
+            Rectangle()
+                .frame(height: 320)
+                .clipShape(RoundedRectangle(cornerRadius:  10))
+        }
+        .padding()
     }
 }
 
