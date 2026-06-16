@@ -14,19 +14,24 @@ struct ListingItemsView: View {
                 .frame(height: 320)
                 .clipShape(RoundedRectangle(cornerRadius:  10))
             
-            HStack {
-                // details
-                VStack(alignment: .leading) {
+            HStack (alignment: .top) {
+                
+                VStack(alignment: .leading) {  }
                     Spacer()
                     
-                    VStack(spacing: 2)
+                HStack(spacing: 2){
+                    Image(systemName:  "star.fill")
+                    Text("4.86")
+                    
+                }
                 }
                 .font(.footnote)
             }
-        }
         .padding()
+        }
+        
     }
-}
+
 
 #Preview {
     ListingItemsView()
