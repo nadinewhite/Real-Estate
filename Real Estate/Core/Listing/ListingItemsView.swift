@@ -10,10 +10,14 @@ import SwiftUI
 struct ListingItemsView: View {
     var body: some View {
         VStack(spacing: 8) {
-            Rectangle()
+            TabView {
+                ForEach(0 ... 3, id: \.self) {_ in
+                    Rectangle()
+                }
+            }
                 .frame(height: 320)
                 .clipShape(RoundedRectangle(cornerRadius:  10))
-            
+               
             HStack (alignment: .top) {
                 
                 VStack(alignment: .leading) {  }
