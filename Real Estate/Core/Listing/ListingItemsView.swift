@@ -13,6 +13,16 @@ struct ListingItemsView: View {
             Rectangle()
                 .frame(height: 320)
                 .clipShape(RoundedRectangle(cornerRadius:  10))
+            
+            HStack {
+                // details
+                VStack(alignment: .leading) {
+                    Spacer()
+                    
+                    VStack(spacing: 2)
+                }
+                .font(.footnote)
+            }
         }
         .padding()
     }
