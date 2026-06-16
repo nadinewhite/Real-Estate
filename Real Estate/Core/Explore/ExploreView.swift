@@ -15,7 +15,7 @@ struct ExploreView: View {
                     ForEach(0 ... 10, id: \.self) { listing in Rectangle()
                             .frame(height: 400)
                         
-                            .clipShape(RoundedRectangl(cornerRaduis: 10))
+                            .clipShape(RoundedRectangle(cornerRadius: 10))
                     }
                 }
                 .padding()
