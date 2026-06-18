@@ -17,6 +17,7 @@ struct ListingItemsView: View {
             }
                 .frame(height: 320)
                 .clipShape(RoundedRectangle(cornerRadius:  10))
+                .tabViewStyle(.page)
                
             HStack (alignment: .top) {
                 
