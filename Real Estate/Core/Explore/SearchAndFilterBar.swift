@@ -10,10 +10,8 @@ import SwiftUI
 struct SearchAndFilterBar: View {
     var body: some View {
         HStack {
+            Image(systemName: "magnifyingglass")
             
         }
-}
-
-#Preview {
-    SearchAndFilterBar()
-}
+    
+   
