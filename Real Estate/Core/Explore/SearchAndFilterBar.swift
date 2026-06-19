@@ -25,7 +25,7 @@ struct SearchAndFilterBar: View {
             Spacer()
             
             Button(action: {}, label: {
-                Text("Button")
+                Image(systemName: "line.3.horizontal.decrease.circle")
             })
             
         }
