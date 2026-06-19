@@ -12,6 +12,16 @@ struct SearchAndFilterBar: View {
         HStack {
             Image(systemName: "magnifyingglass")
             
+            VStack(aligment: .leading, spacing: 2) {
+                
+            }
+            
         }
+    }
+}
+
+#Preview {
+    SearchAndFilterBar()
+}
     
    
