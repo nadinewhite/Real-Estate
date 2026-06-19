@@ -7,6 +7,15 @@
 
 import SwiftUI
 
+struct ListingItemsView {
+    var image = {
+        "Listing1",
+        "Listing2",
+        "Listing3",
+        "Listing4",
+}
+}
+
 struct ListingItemsView: View {
     var body: some View {
         VStack(spacing: 8) {
